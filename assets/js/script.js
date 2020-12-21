@@ -4,7 +4,7 @@ var opener = function(btnId) {
     var openerEl = document.createElement("div");
     openerEl.className = "main";
     body.appendChild(openerEl);
-    
+
     //title
     var h1El = document.createElement("h1");
     h1El.textContent = 'Coding Quiz Challenge'
