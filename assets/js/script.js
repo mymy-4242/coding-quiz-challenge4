@@ -108,37 +108,37 @@ var questions = [
         answer: "4"
     },
     {
-        question: "What is the purpose or an alt attribute for images?",
+        question: "What is event.preventDefault() used for?",
         choices: {
-            1: "To provide context for the image",
-            2: "To style the image",
-            3: "To provide an alternative image if the original image does not appear",
-            4: "To delete the image"
+            1: "To stop the browser from submitting a form",
+            2: "To stop the browser from reloading the page after a form is submitted",
+            3: "To stop the browser from loading the page with CSS",
+            4: "To stop the browser from deleting a stored property"
         },
         answer: "2"
     },
     {
-        question: "How do you create a flexbox?",
+        question: "Arrays can be used to store___",
         choices: {
-            1: "display: box;",
-            2: "flex: display;",
-            3: "display: flex;",
-            4: "flexbox: display;"
+            1: "booleans",
+            2: "strings",
+            3: "numbers",
+            4: "all of the above"
         },
-        answer: "3"
+        answer: "5"
     },
     {
-        question: "What are types of media we can apply CSS to?",
+        question: "Commonly used data types do not include:",
         choices: {
-            1: "screen",
-            2: "speech",
-            3: "print",
-            4: "all of the above"
+            1: "string",
+            2: "boolean",
+            3: "number",
+            4: "loops"
         },
         answer: "4",
     },
     {
-        question: "What method converts a string value to lower case in JavaScript?",
+        question: "What method converts a string value to lower case?",
         choices: {
             1: ".toLowerCase()",
             2: ".lowerCase()",
