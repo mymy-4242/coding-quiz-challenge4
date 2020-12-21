@@ -45,22 +45,48 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
     align-items: center;
     margin: 10px;
 }
 
-main button {
+.opener {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin: 10px; 
+}
+
+.btn {
     border: none;
     border-radius: 5px;
     padding: 5px;
     font-size: 15px;
     background-color: var(--secondary);
     color: var(--quaternary);
+    align-items: center;
 }
 
-main button:hover {
+.btn:hover {
     background-color: var(--tertiary);
 }
 
+
+.question {
+    font-weight: bolder;
+    text-align: center;
+}
+
+.choices {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secondary);
+    color: var(--quaternary);
+}
+
+.choices:hover {
+    background-color: var(--tertiary);
+
+}
 
